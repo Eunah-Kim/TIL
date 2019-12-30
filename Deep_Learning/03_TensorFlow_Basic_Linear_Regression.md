@@ -73,7 +73,7 @@ plt.legend()
 plt.show()
 ```
 
-![image-20191230195452791](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191230195452791.png)
+![image-20191230202229221](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191230202229221.png)
 
 
 
