@@ -65,6 +65,8 @@ print(sess.run(a))
 sess.close()
 ```
 
+
+
 아래의 경우에는 tf.Session() 함수를 반드시 닫아줄 필요가 없다.
 
 ```python
@@ -107,4 +109,8 @@ with tf.Session() as sess:
     #여러 개의 Tensor를 동시에 실행하고 싶을 경우에는 list로 전달
 	print(op3)
 ```
+
+`7776 10`
+
+
 
