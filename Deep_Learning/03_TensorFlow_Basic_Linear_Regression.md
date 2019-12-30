@@ -21,15 +21,23 @@ df.head()
 
 #### 2. Build the model
 
+w, b는 파라미터, y_predicted는 예측된 모델
+
 ```python
 # tf.Variable(초기화 방법)
 w = tf.Variable(tf.random_normal([1]))
 b = tf.Variable(tf.random_normal([1]))
 
-y = predicted = w * x_data + b #model
+y_predicted = w * x_data + b #model
 ```
 
 #### 3. Set the Crierion : Cost function & Gradient Descent method
+
+>  reduce_mean : 평균   tf.square : 제곱함수
+
+y_data와 y_predicted 의 오차를 제곱한 후 평균계산 >> **MES**
+
+GradientDescentOptimizer(Learning rate) Learning rate = **0.001**로 설정 (hyper parameter)
 
 ```python
 # Cost function
@@ -66,6 +74,8 @@ plt.show()
 ```
 
 ![image-20191230195452791](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191230195452791.png)
+
+
 
 
 
