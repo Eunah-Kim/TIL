@@ -1,6 +1,6 @@
 # 2. Tensorflow basic
 
-## 2-3. Dropout
+## 2-3. MNIST_Dropout
 
 > Dropout 이란 네트웍의 일부를 생략하는 것
 >
