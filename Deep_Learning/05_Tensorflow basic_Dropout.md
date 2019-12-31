@@ -71,10 +71,12 @@ init = tf.global_variables_initializer()
 sess = tf.Session()
 sess.run(init)
 
+#batch 단위를 100으로 설정
 batch_size = 100
 total_batch = int(mnist.train.num_examples / batch_size)
 print(total_batch)
 
+#15번 실행
 for epoch in range(15):
     total_cost = 0
 
