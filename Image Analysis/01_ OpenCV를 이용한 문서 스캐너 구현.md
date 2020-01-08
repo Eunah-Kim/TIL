@@ -96,7 +96,13 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-​        <img src="C:\Users\student\TIL\Image Analysis\img\image-20200108200243197.png" alt="image" style="zoom:50%;" />        <img src="C:\Users\student\TIL\Image Analysis\img\image-20200108202825243.png" alt="image-20200108202825243" style="zoom:50%;" />
+​        <img src="C:\Users\student\TIL\Image Analysis\img\image-20200108200243197.png" alt="image" style="zoom:50%;" />        <img src="C:\Users\student\TIL\Image Analysis\img\image-20200108202825243.png" alt="image-20200108202825243" style="zoom:50%;" /> 
+
+
+
+
+
+
 
 
 
