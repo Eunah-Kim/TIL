@@ -10,15 +10,15 @@ typora-copy-images-to: image
 
 1. c cdrive로 나간 뒤 폴더 생성
 
-```shell
-cd ..
-mkdir work_django
-cd work_django
-mkdir django_mldl
-cd django_mldl
-```
+   ```
+   cd ..
+   mkdir work_django
+   cd work_django
+   mkdir django_mldl
+   cd django_mldl
+   ```
 
-![image-20200210175756578](./image/image-20200210175756578.png)
+   ​	![image-20200210175756578](./image/image-20200210175756578.png)
 
 2. 가상환경을 만들어주는 라이브러리 설치
 
@@ -42,4 +42,12 @@ cd django_mldl
    django_env\Scripts\activate
    ```
 
-![image-20200210180351440](./image/image-20200210180351440.png)
+   ![image-20200210180351440](./image/image-20200210180351440.png)
+
+5. django 설치
+
+   ```shell
+   pip install django==2.2.6
+   ```
+
+   ![image-20200210180803601](./image/image-20200210180803601.png)
