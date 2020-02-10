@@ -1,7 +1,3 @@
----
-typora-copy-images-to: image
----
-
 ## Django Sever 실행 & 웹브라우저에서 확인
 
 ### CMD
