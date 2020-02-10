@@ -8,16 +8,16 @@
 
    (포트번호 변경을 원할 시 : python manage.py runserver <u>8888</u>)
    
-   ```shell
-python manage.py runserver
+   ```python
+   python manage.py runserver
    ```
    
    ​	![image-20200210202755305](image/image-20200210202755305.png)
 
 
+
 2. 브라우저에서 127.0.0.1:8000 접속
 
-   초기 화면 확인할 수 있음
+   초기 화면을 확인할 수 있음
 
-   ![image-20200210203047195](image/image-20200210203047195.png)
-
+   ![image-20200210203424915](UsersstudentTILDjangoimage/image-20200210203424915-1581334469120.png)
