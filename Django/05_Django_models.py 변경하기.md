@@ -65,9 +65,7 @@ typora-copy-images-to: image
         return "pk {} : {} - {}".format(self.pk, self.name, self.text) # pk는 자동생성됨
    ```
 
-   ​	![image-20200210201048634](image/image-20200210201048634.png)
-
-
+   
 
 ### CMD 
 
