@@ -16,11 +16,11 @@ typora-copy-images-to: image
 
 1. **GuessNumber Class 생성하기**
 
-   models.py에서 Class는 테이블을 말함.
+   models.py에서 Class `GuessNumbers`는 테이블을 말함.
    
-   models.Model ; Model을 상속받아 Model 안에 있는 함수를 사용할 수 있도록 함.
+   >  models.Model ; Model을 상속받아 Model 안에 있는 함수를 사용할 수 있도록 함.
    
-   class 내에 name, text, lottos, num_lotto, update_date 열에 대한 정의를 해줌
+   class 내에 `name`, `text`, `lottos`, `num_lotto`, `update_date` **열에 대한 정의**를 해줌
    
    ```python
    from django.db import models
@@ -41,9 +41,9 @@ typora-copy-images-to: image
 
 2. **GuessNumber 클래스 내 generate함수 정의**
 
-   `generate` 함수는 <u>로또 번호를 자동으로 생성</u>하여 <u>현재 시간</u>과 함께 반환하는 함수임.
+   **`generate` 함수**는 <u>로또 번호를 자동으로 생성</u>하여 <u>현재 시간</u>과 함께 반환하는 함수임.
 
-   1~46까지의 숫자를 `shuffl`e을 적용하여 앞에서부터 여섯개씩 뽑아내 \n으로 연결
+   1~46까지의 숫자를 `shuffle`을 적용하여 앞에서부터 여섯개씩 뽑아내 \n으로 연결
 
    그 뒤 이를 str로 dtype 변경하여 `self.lottos` 빈 리스트에 넣는다.
 
