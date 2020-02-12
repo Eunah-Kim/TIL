@@ -61,7 +61,7 @@ typora-copy-images-to: image
         self.update_date = timezone.now()
         self.save()  # GuessNumbers object를 DB에 저장
 
-    def _str__(self):  # Admin page에서 display되는 텍스트에 대한 변경
+    def __str__(self):  # Admin page에서 display되는 텍스트에 대한 변경
         return "pk {} : {} - {}".format(self.pk, self.name, self.text) # pk는 자동생성됨
    ```
 
