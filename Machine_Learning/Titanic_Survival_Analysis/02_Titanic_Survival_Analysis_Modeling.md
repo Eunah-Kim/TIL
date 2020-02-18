@@ -108,6 +108,8 @@ Accuracy on Test set: 0.813
 
 
 
+
+
 **Hyper parameter  kernel= poly, C=1000, gamma= 0.1**
 
 ```python
